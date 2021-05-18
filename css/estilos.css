@@ -1,0 +1,82 @@
+:root{
+    /* Colors */
+    --green: rgb(76, 175, 80, .7);
+    --white: rgb(245, 245, 245);
+    /* Fuentes */
+    --font-principal: 'Poppins', sans-serif;
+    --font-title:'Krub', sans-serif;
+    --Font-size: 1.5rem;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: 60%;
+}
+body {
+    font-size: 10px;
+    font-family: var(--font-principal);
+}
+
+/* Cabecera */
+
+header {
+    position: fixed;
+    padding: 20px;
+    
+}
+.back-head{
+    margin: 0 auto;
+}
+
+.title1 {
+    font-size: 3.5rem;
+}
+/* Navegation */
+#barnav{
+    display: flex;
+    justify-content: space-between;/* justify-content solo funciona con display flex */
+    margin: 0 20rem;
+    /* Para acomodar una navegacion con display fixed se tiene que agregar un margin   */
+    width: 120%;
+}
+h1{
+    font-family: var(--font-title);
+    cursor: pointer;
+}
+#barnav a {
+    top: 1rem;
+    text-decoration: none;
+    color:var(--white);
+    font-size: var(--Font-size);
+    font-family: var(--font-principal);
+}
+#link-sec{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+
+/* Show Case */
+
+#showCaseone {
+    background: url(../img/pexels-quang-nguyen-vinh-2149105.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 200px;
+}
+
+#showCaseone #impresion1 {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-principal);
+}
+
+#impresion1 p{
+    font-size: var(--Font-size);
+}
+
+/* Formulario */
+
+
